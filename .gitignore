@@ -1,32 +1,10 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int x,y,z;
+    cin>>x>>y>>z;
+    if(x==y and y==z) cout<<"equilatero";
+    else if(x!=y and y!=z) cout<<"escaleno";
+    else cout<<"isosceles";
+	return 0;
+}
